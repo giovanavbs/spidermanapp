@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">SpidermanAppofc</string>
+    <string name="txtnomeapp2">Ajude o Homem Aranha a salvar o Meio Ambiente!</string>
+    <string name="b1">brinquedo1</string>
+    <string name="b2">brinquedo2</string>
+    <string name="b3">brinquedo3</string>
+    <string name="b4">brinquedo4</string>
+    <string name="btninicio">COMEÇAR</string>
+    <string name="btnnext">PROXIMO</string>
+    <string name="btnfim">FIM</string>
+    <string name="btnvoltamenu">MENU</string>
+    <string name="btnvoltainicio">INÍCIO</string>
+    <string name="txtvb1">BRINQUEDO</string>
+    <string name="txtnomeapp1">SpiderBRINQUEDOS</string>
+    <string name="txtparabens">PARABÉNS !</string>
+    <string name="txtemenu">MENU</string>
+    <string name="sm">Spiderman</string>
+    <string name="txtve">1) AVIÃO
+Materiais:
+- Prendedor de roupa.
+- 3 Palitos de sorvete.
+- Cola.
+- Tintas para a decoração.
+Tutorial:
+1. Cole 2 palitos de sorvete na ponta em que se abre o prendedor, para simular
+as asas.
+2. Cole o último palito na outra ponta.
+3. Solte a criatividade e decore seu avião!
+</string>
+    <string name="txtve2">3) LANÇADOR DE TEIA DO HOMEM ARANHA
+Materiais:
+- Uma canetinha velha.
+- 2 molinhas de caneta.
+- Papelão.
+- Tampinha de garrafa.
+- Palitos de churrasco e sorvete.
+- Tesoura.
+- Barbante.
+- Cola.</string>
+    <string name="txtve3">2) PAPEL MACHÊ (MASSA DE MODELAR)
+Materiais:
+- Papel (folhas de jornal, papel de caderno, papel higiênico limpo e entre outros).
+- Água.
+- Cola branca.
+- Recipiente para misturar a massa.</string>
+    <string name="ex10">Cole 2 palitos de sorvete na ponta em que se abre o prendedor, para simular as asas. </string>
+    <string name="ex11">Cole o último palito na outra ponta.</string>
+    <string name="ex12">Solte a criatividade e decore seu avião!</string>
+
+    <string name="ex13">Pique o papel em pedaços pequenos e coloque em um recipiente.</string>
+    <string name="ex14">Despeje água morna sobre o papel e deixe amolecer (pelo menos de 10 a 12 horas). Se desejar acelerar o processo, você pode usar um mixer, para misturar.</string>
+    <string name="ex15">Após o tempo, pegue a massa e enrole num tecido, para tirar o excesso da água.</string>
+    <string name="ex16">Acrescente a cola aos poucos.</string>
+    <string name="ex17">Quando a massa ganhar forma, está tudo pronto para a modelagem. Seja criativo amigão!</string>
+
+    <string name="ex">Corte a canetinha velha em dois pedaços pequenos (do mesmo tamanho).</string>
+    <string name="ex2">a molinha e cole em cima do pedacinho de papelão, logo depois cole em cima um dos pedaços da canetinha, de maneira que a molinha fique dentro.</string>
+    <string name="ex3">Repita este processo com o outro pedaço de canetinha</string>
+    <string name="ex4">Corte o papelão no tamanho do seu pulso, como uma pulseira.</string>
+    <string name="ex5">Cole os dois pedaços da canetinha nessa pulseira.</string>
+    <string name="ex6">Pegue a tampinha e corte para colar em cima da pulseira, de maneira que cubra os dois pedaços da canetinha.</string>
+    <string name="ex7">Para fazer o que será lançado, pegue dois palitos de churrasco cortados e cole em cima do pedacinho de palito de sorvete. Logo depois cole dois barbantes</string>
+    <string name="ex8">Com as duas pontas soltas dos barbantes, cole-as na pulseira, em baixo dos pedaços da canetinha.</string>
+    <string name="ex9">Coloque o que será lançado nos pedaços da canetinha, pressione e solte suas teias!</string>
+</resources>

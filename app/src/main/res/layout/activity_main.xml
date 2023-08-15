@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundoinicio"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtnomeapp1"
+        android:layout_width="256dp"
+        android:layout_height="79dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="156dp"
+        android:layout_marginEnd="130dp"
+        android:layout_marginBottom="120dp"
+        android:width="200dp"
+        android:height="60dp"
+        android:gravity="center"
+        android:text="@string/txtnomeapp1"
+        android:textColor="@color/black"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btninicio"
+        android:layout_width="154dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="400dp"
+        android:layout_marginTop="127dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="400dp"
+        android:backgroundTint="@color/design_default_color_error"
+        android:text="@string/btninicio"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtnomeapp2"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/txtnomeapp2"
+        android:layout_width="231dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="242dp"
+        android:layout_marginEnd="84dp"
+        android:layout_marginBottom="136dp"
+        android:text="@string/txtnomeapp2"
+        app:layout_constraintBottom_toTopOf="@+id/btninicio"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="159dp"
+        android:layout_marginTop="73dp"
+        android:layout_marginEnd="161dp"
+        android:layout_marginBottom="375dp"
+        android:text="@string/btninicio"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtnomeapp1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/miranhafundo2"
+    tools:context=".brinquedo3">
+
+    <ImageView
+        android:id="@+id/imgsm3"
+        android:layout_width="226dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginEnd="32dp"
+        android:contentDescription="@string/sm"
+        app:layout_constraintEnd_toStartOf="@+id/btnnext"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtvb"
+        app:srcCompat="@drawable/miranha2" />
+
+    <Button
+        android:id="@+id/btnnext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="20dp"
+        android:width="125dp"
+        android:backgroundTint="@color/black"
+        android:text="@string/btnnext"
+        android:textColor="@color/white"
+        app:cornerRadius="@dimen/material_emphasis_medium"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.884"
+        tools:text="@string/btnnext" />
+
+    <TextView
+        android:id="@+id/txtvb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="130dp"
+        android:layout_marginEnd="130dp"
+        android:width="200dp"
+        android:height="60dp"
+        android:gravity="center"
+        android:text="@string/txtvb1"
+        android:textColor="@color/white"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="316dp"
+        android:text="@string/txtve2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.104"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="@string/txtve2" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="241dp"
+        android:layout_height="213dp"
+        app:srcCompat="@drawable/brinquedo3img"
+        tools:layout_editor_absoluteX="170dp"
+        tools:layout_editor_absoluteY="153dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
