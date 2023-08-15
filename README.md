@@ -26,5 +26,5 @@ maioria das casas.
 
 DIAGRAMA DE CLASSE
 <p align="center">
-<img width="750" height="400" src="img_readme/diagrama.png">
+<img width="750" height="400" src="img_readme/diagrama.jpeg">
 </p>
