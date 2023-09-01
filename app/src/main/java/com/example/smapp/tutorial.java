@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class menu extends AppCompatActivity {
+public class tutorial extends AppCompatActivity {
 
     private Button btnb1;
     private Button btnb2;
@@ -15,7 +15,7 @@ public class menu extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_menu);
+        setContentView(R.layout.activity_tutorial);
 
         btnb1 = (Button)findViewById(R.id.btnb1);
 

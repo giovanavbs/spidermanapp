@@ -19,7 +19,7 @@ public class fim extends AppCompatActivity {
         btnvoltamenu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getBaseContext(), menu.class);
+                Intent intent = new Intent(getBaseContext(), tutorial.class);
 
                 //Intent intent = new Intent( this, menu.class);
                 startActivity(intent);

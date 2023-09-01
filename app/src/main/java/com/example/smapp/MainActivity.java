@@ -9,23 +9,25 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button btninicio;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        Thread timer = new Thread() {
+            public void run() {
+                try {
+                    sleep(1500);
+                    Intent intent = new Intent(getBaseContext(), tutorial.class);
+                    startActivity(intent);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
 
-        btninicio = (Button)findViewById(R.id.btn1);
-
-        btninicio.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getBaseContext(), menu.class);
-
-                //Intent intent = new Intent( this, menu.class);
-                startActivity(intent);
             }
-        });
+
+        };
+        timer.start();
+
     }
+
 }

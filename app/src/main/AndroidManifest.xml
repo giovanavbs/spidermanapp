@@ -13,6 +13,9 @@
         android:theme="@style/Theme.Smapp"
         tools:targetApi="31">
         <activity
+            android:name=".login"
+            android:exported="false" />
+        <activity
             android:name=".fim"
             android:exported="false" />
         <activity
@@ -25,7 +28,7 @@
             android:name=".brinquedo1"
             android:exported="false" />
         <activity
-            android:name=".menu"
+            android:name=".tutorial"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
