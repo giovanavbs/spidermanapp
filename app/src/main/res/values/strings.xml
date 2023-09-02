@@ -10,23 +10,27 @@
     <string name="btnfim">FIM</string>
     <string name="btnvoltamenu">MENU</string>
     <string name="btnvoltainicio">INÍCIO</string>
-    <string name="txtvb1">BRINQUEDO</string>
+    <string name="txtvb1">MATERIAIS</string>
     <string name="txtnomeapp1">SpiderBRINQUEDOS</string>
     <string name="txtparabens">PARABÉNS !</string>
     <string name="txtemenu">MENU</string>
     <string name="sm">Spiderman</string>
-    <string name="txtve">1) AVIÃO
-Materiais:
-- Prendedor de roupa.
-- 3 Palitos de sorvete.
-- Cola.
-- Tintas para a decoração.
+    <string name="txtve">AVIÃO DE PRENDEDOR</string>
+    <string name="txtmat">Materiais</string>
+    <string name= "txtmat1">- Prendedor de roupa;
+
+- Três palitos de sorvete;
+
+- Cola (bastão ou líquida);
+
+- Tintas para a decoração (a decidir);
+
+
 Tutorial:
 1. Cole 2 palitos de sorvete na ponta em que se abre o prendedor, para simular
 as asas.
 2. Cole o último palito na outra ponta.
-3. Solte a criatividade e decore seu avião!
-</string>
+3. Solte a criatividade e decore seu avião!</string>
     <string name="txtve2">3) LANÇADOR DE TEIA DO HOMEM ARANHA
 Materiais:
 - Uma canetinha velha.
