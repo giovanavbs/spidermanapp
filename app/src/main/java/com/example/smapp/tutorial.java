@@ -19,36 +19,36 @@ public class tutorial extends AppCompatActivity {
 
         btnb1 = (Button)findViewById(R.id.btnb1);
 
+        btnb2 = (Button)findViewById(R.id.btnb2);
+
+        btnb3 = (Button)findViewById(R.id.btnb3);
+
         btnb1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getBaseContext(), brinquedo1.class);
+                Intent intent = new Intent(getBaseContext(), menub1.class);
 
-                //Intent intent = new Intent( this, brinquedo1.class);
+                //Intent intent = new Intent( this, menub1.class);
                 startActivity(intent);
             }
         });
-
-        btnb2 = (Button)findViewById(R.id.btnb1);
 
         btnb2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getBaseContext(), brinquedo2.class);
+                Intent intent = new Intent(getBaseContext(), menub2.class);
 
-                //Intent intent = new Intent( this, brinquedo2.class);
+                //Intent intent = new Intent( this, menub2.class);
                 startActivity(intent);
             }
         });
 
-        btnb3 = (Button)findViewById(R.id.btnb1);
-
         btnb3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getBaseContext(), brinquedo3.class);
+                Intent intent = new Intent(getBaseContext(), menub3.class);
 
-                //Intent intent = new Intent( this, brinquedo3.class);
+                //Intent intent = new Intent( this, menub3.class);
                 startActivity(intent);
             }
         });
