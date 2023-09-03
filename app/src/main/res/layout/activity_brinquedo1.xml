@@ -2,10 +2,43 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/miranhafundo2"
     tools:context=".brinquedo1">
+
+    <TextView
+        android:id="@+id/txttuto1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/eczar_medium"
+        android:text="@string/txttuto1"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.778"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.477" />
+
+    <TextView
+        android:id="@+id/txtttuto2"
+        android:layout_width="181dp"
+        android:layout_height="237dp"
+        android:fontFamily="@font/eczar"
+        android:gravity="right"
+        android:text="@string/txttuto2"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.93"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.736"
+        tools:ignore="RtlHardcoded,TextSizeCheck" />
 
     <Button
         android:id="@+id/btnnext"
@@ -13,6 +46,7 @@
         android:layout_height="wrap_content"
         android:width="125dp"
         android:backgroundTint="@color/black"
+        android:fontFamily="@font/eczar_extrabold"
         android:text="@string/btnnext"
         android:textColor="@color/white"
         app:cornerRadius="@dimen/material_emphasis_medium"
@@ -21,7 +55,7 @@
         app:layout_constraintHorizontal_bias="0.944"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.9" />
+        app:layout_constraintVertical_bias="0.994" />
 
     <TextView
         android:id="@+id/txtvb"
@@ -45,9 +79,11 @@
         android:id="@+id/txtve"
         android:layout_width="192dp"
         android:layout_height="57dp"
+        android:background="#D86565"
         android:fontFamily="@font/eczar_medium"
         android:gravity="center"
         android:text="@string/txtve"
+        android:textColor="#000000"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -58,7 +94,7 @@
         tools:ignore="TextSizeCheck" />
 
     <ImageView
-        android:id="@+id/imageView5"
+        android:id="@+id/brinquedo1"
         android:layout_width="156dp"
         android:layout_height="151dp"
         android:background="#830000"
@@ -77,21 +113,30 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/eczar_medium"
         android:text="@string/txtmat"
+        android:textColor="#000000"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.224"
+        app:layout_constraintHorizontal_bias="0.233"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.199" />
 
     <TextView
         android:id="@+id/txtmat1"
-        android:layout_width="217dp"
-        android:layout_height="275dp"
+        android:layout_width="205dp"
+        android:layout_height="172dp"
+        android:fontFamily="@font/eczar"
+        android:gravity="clip_horizontal|clip_vertical|left"
         android:text="@string/txtmat1"
+        android:textColor="#000000"
         android:textSize="16sp"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="172dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.077"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.302"
+        tools:ignore="RtlHardcoded,TextSizeCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -17,20 +17,19 @@
     <string name="sm">Spiderman</string>
     <string name="txtve">AVIÃO DE PRENDEDOR</string>
     <string name="txtmat">Materiais</string>
-    <string name= "txtmat1">- Prendedor de roupa;
-
-- Três palitos de sorvete;
-
-- Cola (bastão ou líquida);
-
-- Tintas para a decoração (a decidir);
-
-
-Tutorial:
-1. Cole 2 palitos de sorvete na ponta em que se abre o prendedor, para simular
-as asas.
-2. Cole o último palito na outra ponta.
-3. Solte a criatividade e decore seu avião!</string>
+    <string name= "txtmat1">
+            Prendedor de roupa;
+        \nTrês palitos de sorvete;
+        \nCola (bastão ou líquida);
+    \nTintas para a decoração (a decidir);
+    </string>
+    <string name="txttuto1">Tutorial:</string>
+    <string name = "txttuto2">
+        1. Cole 2 palitos de sorvete na ponta em que se abre o prendedor, para simular
+        as asas.
+        \n2. Cole o último palito na outra ponta.
+        \n3. Solte a criatividade e decore seu avião!
+    </string>
     <string name="txtve2">3) LANÇADOR DE TEIA DO HOMEM ARANHA
 Materiais:
 - Uma canetinha velha.
@@ -41,12 +40,22 @@ Materiais:
 - Tesoura.
 - Barbante.
 - Cola.</string>
-    <string name="txtve3">2) PAPEL MACHÊ (MASSA DE MODELAR)
-Materiais:
-- Papel (folhas de jornal, papel de caderno, papel higiênico limpo e entre outros).
-- Água.
-- Cola branca.
-- Recipiente para misturar a massa.</string>
+    <string name ="txtve1" translatable="false">PAPEL MACHÊ</string>
+    <string name="txtmat2">Materiais</string>
+    <string name="txtmat3">
+        Papel (folhas de jornal, papel de caderno, papel higiênico limpo e entre outros);
+        \nÁgua;
+        \nCola branca;
+        \nRecipiente para misturar a massa;
+    </string>
+    <string name="txttuto3">Tutorial:</string>
+    <string name = "txttuto4">
+        1. Pique o papel em pequenos pedaços. \n
+        2. Adicione água ao papel e deixe amolecer. \n
+        3. Após o tempo, pegue a massa, enrole num tecido e aperte, para tirar o excesso de água. \n
+        4. Acrescente cola aos poucos. \n
+        5. Assim que ganhar forma, é só modelar. Seja criativo amigão!
+    </string>
     <string name="ex10">Cole 2 palitos de sorvete na ponta em que se abre o prendedor, para simular as asas. </string>
     <string name="ex11">Cole o último palito na outra ponta.</string>
     <string name="ex12">Solte a criatividade e decore seu avião!</string>
@@ -66,4 +75,5 @@ Materiais:
     <string name="ex7">Para fazer o que será lançado, pegue dois palitos de churrasco cortados e cole em cima do pedacinho de palito de sorvete. Logo depois cole dois barbantes</string>
     <string name="ex8">Com as duas pontas soltas dos barbantes, cole-as na pulseira, em baixo dos pedaços da canetinha.</string>
     <string name="ex9">Coloque o que será lançado nos pedaços da canetinha, pressione e solte suas teias!</string>
+    <string name="brinquedo2">TODO</string>
 </resources>
