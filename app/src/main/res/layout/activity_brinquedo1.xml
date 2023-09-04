@@ -25,8 +25,8 @@
 
     <TextView
         android:id="@+id/txtttuto2"
-        android:layout_width="181dp"
-        android:layout_height="237dp"
+        android:layout_width="224dp"
+        android:layout_height="204dp"
         android:fontFamily="@font/eczar"
         android:gravity="right"
         android:text="@string/txttuto2"
@@ -34,10 +34,10 @@
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.93"
+        app:layout_constraintHorizontal_bias="0.914"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.736"
+        app:layout_constraintVertical_bias="0.69"
         tools:ignore="RtlHardcoded,TextSizeCheck" />
 
     <Button
@@ -104,7 +104,7 @@
         app:layout_constraintHorizontal_bias="0.937"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.241"
+        app:layout_constraintVertical_bias="0.291"
         app:srcCompat="@drawable/brinquedo1img" />
 
     <TextView

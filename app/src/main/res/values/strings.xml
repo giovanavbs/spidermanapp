@@ -1,82 +1,75 @@
 <resources>
-    <string name="app_name">SpidermanAppofc</string>
-    <string name="txtnomeapp2">Ajude o Homem Aranha a salvar o Meio Ambiente!</string>
-    <string name="b1">brinquedo1</string>
-    <string name="b2">brinquedo2</string>
-    <string name="b3">brinquedo3</string>
-    <string name="b4">brinquedo4</string>
-    <string name="btninicio">COMEÇAR</string>
-    <string name="btnnext">PROXIMO</string>
-    <string name="btnfim">FIM</string>
-    <string name="btnvoltamenu">MENU</string>
-    <string name="btnvoltainicio">INÍCIO</string>
-    <string name="txtvb1">MATERIAIS</string>
-    <string name="txtnomeapp1">SpiderBRINQUEDOS</string>
-    <string name="txtparabens">PARABÉNS !</string>
-    <string name="txtemenu">MENU</string>
-    <string name="sm">Spiderman</string>
-    <string name="txtve">AVIÃO DE PRENDEDOR</string>
-    <string name="txtmat">Materiais</string>
-    <string name= "txtmat1">
+    <string name="txtnomeapp" translatable="false">SPIDER TOYS</string>
+    <string name="txtslogan" translatable="false">Ajude o Spider-Man a salvar o Meio-Ambiente!</string>
+    <string name="b1" translatable="false">brinquedo1</string>
+    <string name="b2" translatable="false">brinquedo2</string>
+    <string name="b3" translatable="false">brinquedo3</string>
+    <string name="btninicio" translatable="false">COMEÇAR</string>
+    <string name="btnnext" translatable="false">PROXIMO</string>
+    <string name="btnfim" translatable="false">FIM</string>
+    <string name="btnvoltamenu" translatable="false">MENU</string>
+    <string name="btnvoltainicio" translatable="false">INÍCIO</string>
+    <string name="txtvb1" translatable="false">MATERIAIS</string>
+    <string name="txtparabens" translatable="false">PARABÉNS !</string>
+    <string name="txtemenu" translatable="false">MENU</string>
+    <string name="sm" translatable="false">Spiderman</string>
+
+    <!-- Strings da tela do brinquedo número 1 -->
+    <string name="txtve" translatable="false">AVIÃO DE PRENDEDOR</string>
+    <string name="txtmat" translatable="false">Materiais</string>
+    <string name= "txtmat1" translatable="false">
             Prendedor de roupa;
         \nTrês palitos de sorvete;
         \nCola (bastão ou líquida);
     \nTintas para a decoração (a decidir);
     </string>
-    <string name="txttuto1">Tutorial:</string>
-    <string name = "txttuto2">
+    <string name="txttuto1" translatable="false">Tutorial:</string>
+    <string name = "txttuto2" translatable="false">
         1. Cole 2 palitos de sorvete na ponta em que se abre o prendedor, para simular
         as asas.
         \n2. Cole o último palito na outra ponta.
         \n3. Solte a criatividade e decore seu avião!
     </string>
 
-    <string name="btnv">video</string>
-    <string name="btnt">tutorial</string>
-    <string name="txtve2">3) LANÇADOR DE TEIA DO HOMEM ARANHA
-Materiais:
-- Uma canetinha velha.
-- 2 molinhas de caneta.
-- Papelão.
-- Tampinha de garrafa.
-- Palitos de churrasco e sorvete.
-- Tesoura.
-- Barbante.
-- Cola.</string>
+    <string name="btnv" translatable="false">video</string>
+    <string name="btnt" translatable="false">tutorial</string>
+
+    <!-- Strings da tela do brinquedo número 2 -->
     <string name ="txtve1" translatable="false">PAPEL MACHÊ</string>
-    <string name="txtmat2">Materiais</string>
-    <string name="txtmat3">
+    <string name="txtmat2" translatable="false">Materiais</string>
+    <string name="txtmat3" translatable="false">
         Papel (folhas de jornal, papel de caderno, papel higiênico limpo e entre outros);
         \nÁgua;
         \nCola branca;
         \nRecipiente para misturar a massa;
     </string>
-    <string name="txttuto3">Tutorial:</string>
-    <string name = "txttuto4">
+    <string name="txttuto3" translatable="false">Tutorial:</string>
+    <string name = "txttuto4" translatable="false">
         1. Pique o papel em pequenos pedaços. \n
         2. Adicione água ao papel e deixe amolecer. \n
         3. Após o tempo, pegue a massa, enrole num tecido e aperte, para tirar o excesso de água. \n
         4. Acrescente cola aos poucos. \n
         5. Assim que ganhar forma, é só modelar. Seja criativo amigão!
     </string>
-    <string name="ex10">Cole 2 palitos de sorvete na ponta em que se abre o prendedor, para simular as asas. </string>
-    <string name="ex11">Cole o último palito na outra ponta.</string>
-    <string name="ex12">Solte a criatividade e decore seu avião!</string>
 
-    <string name="ex13">Pique o papel em pedaços pequenos e coloque em um recipiente.</string>
-    <string name="ex14">Despeje água morna sobre o papel e deixe amolecer (pelo menos de 10 a 12 horas). Se desejar acelerar o processo, você pode usar um mixer, para misturar.</string>
-    <string name="ex15">Após o tempo, pegue a massa e enrole num tecido, para tirar o excesso da água.</string>
-    <string name="ex16">Acrescente a cola aos poucos.</string>
-    <string name="ex17">Quando a massa ganhar forma, está tudo pronto para a modelagem. Seja criativo amigão!</string>
-
-    <string name="ex">Corte a canetinha velha em dois pedaços pequenos (do mesmo tamanho).</string>
-    <string name="ex2">a molinha e cole em cima do pedacinho de papelão, logo depois cole em cima um dos pedaços da canetinha, de maneira que a molinha fique dentro.</string>
-    <string name="ex3">Repita este processo com o outro pedaço de canetinha</string>
-    <string name="ex4">Corte o papelão no tamanho do seu pulso, como uma pulseira.</string>
-    <string name="ex5">Cole os dois pedaços da canetinha nessa pulseira.</string>
-    <string name="ex6">Pegue a tampinha e corte para colar em cima da pulseira, de maneira que cubra os dois pedaços da canetinha.</string>
-    <string name="ex7">Para fazer o que será lançado, pegue dois palitos de churrasco cortados e cole em cima do pedacinho de palito de sorvete. Logo depois cole dois barbantes</string>
-    <string name="ex8">Com as duas pontas soltas dos barbantes, cole-as na pulseira, em baixo dos pedaços da canetinha.</string>
-    <string name="ex9">Coloque o que será lançado nos pedaços da canetinha, pressione e solte suas teias!</string>
-    <string name="brinquedo2">TODO</string>
+    <!-- Strings da tela do brinquedo número 3 -->
+    <string name="txtve2" translatable="false">LANÇADOR DE TEIA</string>
+    <string name="txtmat4" translatable="false">Materiais</string>
+    <string name="txtmat5" translatable="false">
+        Uma canetinha velha;
+        \nMolinhas de caneta;
+        \nPapelão;
+        \nTampinha de garrafa;
+        \nPalitos de churrasco e sorvete;
+        \nTesoura;
+        \nBarbante;
+        \nCola.</string>
+    <string name="txttuto5" translatable="false">Tutorial:</string>
+    <string name="txttuto6" translatable="false"> 1. Corte um pedaço de papelão para o pulso.
+    \n 2. Corte a canetinha em dois pedaços.
+    \n 3. Cole a canetinha na pulseira.
+     \n 4. Adicione uma mola entre o papelão e a canetinha.
+    \n 5. Cole uma tampinha sobre a canetinha.
+        \n 6. Carregue a canetinha, pressione e solte para lançar teias! </string>
+     <string name="brinquedo2" translatable="false">TODO</string>
 </resources>

@@ -50,17 +50,17 @@
         android:contentDescription="@string/brinquedo2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.936"
+        app:layout_constraintHorizontal_bias="0.94"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.257"
+        app:layout_constraintVertical_bias="0.296"
         app:srcCompat="@drawable/brinquedo2img"
         tools:ignore="ImageContrastCheck" />
 
     <TextView
         android:id="@+id/txtve2"
-        android:layout_width="186dp"
-        android:layout_height="54dp"
+        android:layout_width="196dp"
+        android:layout_height="61dp"
         android:background="#D86565"
         android:fontFamily="@font/eczar_medium"
         android:gravity="center"
@@ -85,10 +85,10 @@
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.149"
+        app:layout_constraintHorizontal_bias="0.201"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.197"
+        app:layout_constraintVertical_bias="0.204"
         tools:ignore="TextSizeCheck" />
 
     <TextView
@@ -109,9 +109,9 @@
         tools:ignore="RtlHardcoded,TextSizeCheck" />
 
     <TextView
-        android:id="@+id/textView6"
-        android:layout_width="217dp"
-        android:layout_height="267dp"
+        android:id="@+id/txttuto4"
+        android:layout_width="295dp"
+        android:layout_height="258dp"
         android:fontFamily="@font/eczar"
         android:gravity="right"
         android:text="@string/txttuto4"
@@ -120,9 +120,24 @@
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.875"
+        app:layout_constraintHorizontal_bias="0.862"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.73"
+        app:layout_constraintVertical_bias="0.782"
         tools:ignore="RtlHardcoded,TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/txttuto3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/eczar_medium"
+        android:text="@string/txttuto3"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.804"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.485" />
 </androidx.constraintlayout.widget.ConstraintLayout>
