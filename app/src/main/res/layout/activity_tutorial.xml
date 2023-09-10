@@ -7,73 +7,53 @@
     android:background="@drawable/miranha"
     tools:context=".tutorial">
 
+    <Button
+        android:id="@+id/btntuto"
+        android:layout_width="153dp"
+        android:layout_height="76dp"
+        android:backgroundTint="#9FFF0D0D"
+        android:fontFamily="@font/eczar_medium"
+        android:text="@string/btntuto"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.542" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="151dp"
+        android:layout_height="68dp"
+        android:backgroundTint="#9FFF0D0D"
+        android:fontFamily="@font/eczar_medium"
+        android:text="@string/btnlogin"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.757" />
+
     <TextView
         android:id="@+id/txtmenu"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="150dp"
-        android:layout_marginTop="138dp"
-        android:layout_marginEnd="203dp"
-        android:layout_marginBottom="574dp"
+        android:layout_width="172dp"
+        android:layout_height="98dp"
+        android:background="#9FFF0D0D"
+        android:fontFamily="@font/eczar_medium"
+        android:gravity="center"
         android:text="@string/txtemenu"
+        android:textColor="#000000"
+        android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/btnb1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="144dp"
-        android:layout_marginTop="61dp"
-        android:layout_marginEnd="177dp"
-        android:layout_marginBottom="465dp"
-        android:text="@string/b1"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtmenu" />
-
-    <Button
-        android:id="@+id/btnb2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="133dp"
-        android:layout_marginTop="46dp"
-        android:layout_marginEnd="188dp"
-        android:layout_marginBottom="371dp"
-        android:text="@string/b2"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnb1" />
-
-    <Button
-        android:id="@+id/btnb3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="138dp"
-        android:layout_marginTop="53dp"
-        android:layout_marginEnd="183dp"
-        android:layout_marginBottom="270dp"
-        android:text="@string/b3"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnb2" />
-
-    <Button
-        android:id="@+id/btnb4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="142dp"
-        android:layout_marginTop="50dp"
-        android:layout_marginEnd="179dp"
-        android:layout_marginBottom="172dp"
-        android:text="@string/b4"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnb3" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.298"
+        tools:ignore="TextContrastCheck" />
 </androidx.constraintlayout.widget.ConstraintLayout>

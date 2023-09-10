@@ -1,17 +1,15 @@
 <resources>
-    <string name="txtnomeapp" translatable="false">SPIDER TOYS</string>
-    <string name="txtslogan" translatable="false">Ajude o Spider-Man a salvar o Meio-Ambiente!</string>
-    <string name="b1" translatable="false">brinquedo1</string>
-    <string name="b2" translatable="false">brinquedo2</string>
-    <string name="b3" translatable="false">brinquedo3</string>
-    <string name="btninicio" translatable="false">COMEÇAR</string>
+    <string name="txtnomeapp" translatable="false">SPIDER TOYS</string>  <!-- string da tela activity main -->
+    <string name="txtslogan" translatable="false">Ajude o Spider-Man a salvar o Meio-Ambiente!</string>   <!-- string da tela activity main -->
     <string name="btnnext" translatable="false">PROXIMO</string>
     <string name="btnfim" translatable="false">FIM</string>
-    <string name="btnvoltamenu" translatable="false">MENU</string>
+    <string name= "btntuto">Tutoriais</string> <!-- botão para a tela de tutoriais dos brinquedos -->
+    <string name="btnlogin">Login</string> <!-- botão para a tela de login -->
+    <string name="btnvoltamenu" translatable="false">MENU</string> <!-- string nome de botão de retorno -->
     <string name="btnvoltainicio" translatable="false">INÍCIO</string>
     <string name="txtvb1" translatable="false">MATERIAIS</string>
     <string name="txtparabens" translatable="false">PARABÉNS !</string>
-    <string name="txtemenu" translatable="false">MENU</string>
+    <string name="txtemenu" translatable="false">MENU</string><!-- String nome da textview -->
     <string name="sm" translatable="false">Spiderman</string>
 
     <!-- Strings da tela do brinquedo número 1 -->
