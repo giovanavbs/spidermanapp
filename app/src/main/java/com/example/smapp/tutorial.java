@@ -1,56 +1,45 @@
 package com.example.smapp;
 
-import androidx.appcompat.app.AppCompatActivity;
-
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.Button;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class tutorial extends AppCompatActivity {
 
-    private Button btnb1;
-    private Button btnb2;
-    private Button btnb3;
+    @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tutorial);
 
-        btnb1 = (Button)findViewById(R.id.btnb1);
+        Button btnb1 = (Button) findViewById(R.id.btntuto);
 
-        btnb2 = (Button)findViewById(R.id.btnb2);
+        Button btnb2 = (Button) findViewById(R.id.btnlogin);
 
-        btnb3 = (Button)findViewById(R.id.btnb3);
+        Button btnb3 = (Button) findViewById(R.id.btnvideos);
 
-        btnb1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getBaseContext(), menub1.class);
+        btnb1.setOnClickListener(v -> {
+            Intent intent = new Intent(getBaseContext(), brinquedo1.class);
 
-                //Intent intent = new Intent( this, menub1.class);
-                startActivity(intent);
-            }
+            //Intent intent = new Intent( this, menub1.class);
+            startActivity(intent);
         });
 
-        btnb2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getBaseContext(), menub2.class);
+        btnb2.setOnClickListener(v -> {
+            Intent intent = new Intent(getBaseContext(), login.class);
 
-                //Intent intent = new Intent( this, menub2.class);
-                startActivity(intent);
-            }
+            //Intent intent = new Intent( this, login.class);
+            startActivity(intent);
         });
 
-        btnb3.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getBaseContext(), menub3.class);
+        btnb3.setOnClickListener(v -> {
+            Intent intent = new Intent(getBaseContext(), videos.class);
 
-                //Intent intent = new Intent( this, menub3.class);
-                startActivity(intent);
-            }
+            //Intent intent = new Intent( this, menub3.class);
+            startActivity(intent);
         });
     }
 }

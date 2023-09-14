@@ -7,40 +7,68 @@
     android:background="@drawable/fundoinicio"
     tools:context=".login">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="267dp"
-        tools:layout_editor_absoluteY="136dp" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="267dp"
-        tools:layout_editor_absoluteY="215dp" />
+    <EditText
+        android:id="@+id/edtxtsenha"
+        android:layout_width="224dp"
+        android:layout_height="80dp"
+        android:ems="10"
+        android:fontFamily="@font/eczar_medium"
+        android:hint="@string/senhalog"
+        android:inputType="textPassword"
+        android:textColorHint="#7A0606"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.367" />
 
     <EditText
-        android:id="@+id/editTextText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/edtxtnomelog"
+        android:layout_width="209dp"
+        android:layout_height="84dp"
         android:ems="10"
+        android:fontFamily="@font/eczar_medium"
+        android:hint="@string/nomelog"
         android:inputType="text"
-        android:text="Name"
-        tools:layout_editor_absoluteX="23dp"
-        tools:layout_editor_absoluteY="215dp" />
+        android:textColorHint="#7A0606"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.165" />
 
-    <EditText
-        android:id="@+id/editTextText2"
+    <TextView
+        android:id="@+id/txtlogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="text"
-        android:text="Name"
-        tools:layout_editor_absoluteX="23dp"
-        tools:layout_editor_absoluteY="136dp" />
+        android:background="#D86565"
+        android:fontFamily="@font/eczar_medium"
+        android:text="@string/txtlogin"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.058" />
+
+    <Button
+        android:id="@+id/btnenviar"
+        android:layout_width="142dp"
+        android:layout_height="67dp"
+        android:backgroundTint="#B5FF0D0D"
+        android:fontFamily="@font/eczar_medium"
+        android:text="@string/btncadastro"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

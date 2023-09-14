@@ -2,6 +2,7 @@ package com.example.smapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -13,12 +14,13 @@ public class brinquedo3 extends AppCompatActivity {
     private TextView txt;
     private Button btn;
     int i;
+    @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_brinquedo3);
 
-        txt = findViewById(R.id.txtex);
+        txt = findViewById(R.id.txttuto6);
         btn = findViewById(R.id.btnnext);
         i=0;
         btn.setOnClickListener(new View.OnClickListener() {
@@ -46,7 +48,7 @@ public class brinquedo3 extends AppCompatActivity {
                     txt.setText(getText(R.string.ex8));
                 } else {
 
-                    Intent intent = new Intent(brinquedo3.this, fim.class);
+                    Intent intent = new Intent(brinquedo3.this, videos.class);
                     startActivity(intent);
                 }
 

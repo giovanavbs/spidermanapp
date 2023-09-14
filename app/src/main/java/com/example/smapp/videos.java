@@ -8,20 +8,20 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class menub1 extends AppCompatActivity {
+public class videos extends AppCompatActivity {
 
     private Button btnmn1;
 
-    private Button btnmv1;
+    private Button btnmn2;
     @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_menub1);
+        setContentView(R.layout.activity_videos);
 
-        btnmn1 = (Button)findViewById(R.id.btnmn1);
+        btnmn1 = (Button)findViewById(R.id.btnplaylist);
 
-        btnmv1 = (Button)findViewById(R.id.btnmv1);
+        btnmn2 = (Button)findViewById(R.id.btnmenu);
 
         btnmn1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -33,10 +33,10 @@ public class menub1 extends AppCompatActivity {
             }
         });
 
-        btnmv1.setOnClickListener(new View.OnClickListener() {
+        btnmn2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getBaseContext(), brinquedo1.class);
+                Intent intent = new Intent(getBaseContext(), tutorial.class);
 
                 //Intent intent = new Intent( this, brinquedo1.class);
                 startActivity(intent);

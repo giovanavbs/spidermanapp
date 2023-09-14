@@ -6,11 +6,16 @@
     <string name= "btntuto">Tutoriais</string> <!-- botão para a tela de tutoriais dos brinquedos -->
     <string name="btnlogin">Login</string> <!-- botão para a tela de login -->
     <string name="btnvoltamenu" translatable="false">MENU</string> <!-- string nome de botão de retorno -->
-    <string name="btnvoltainicio" translatable="false">INÍCIO</string>
     <string name="txtvb1" translatable="false">MATERIAIS</string>
-    <string name="txtparabens" translatable="false">PARABÉNS !</string>
     <string name="txtemenu" translatable="false">MENU</string><!-- String nome da textview -->
-    <string name="sm" translatable="false">Spiderman</string>
+    <string name ="btnvd">Vídeos</string> <!-- string do botão de vídeos da tela de menu-->
+    <string name ="btnplaylist">Playlist</string> <!-- string do botão que envia para o Youtube -->
+
+    <!-- strings da tela de login-->
+    <string name="nomelog">Digite seu nome</string>
+    <string name="senhalog">Digite sua senha</string>
+    <string name="txtlogin">Faça o Log-in aqui!</string>
+    <string name="btncadastro">Enviar</string>
 
     <!-- Strings da tela do brinquedo número 1 -->
     <string name="txtve" translatable="false">AVIÃO DE PRENDEDOR</string>
@@ -70,4 +75,29 @@
     \n 5. Cole uma tampinha sobre a canetinha.
         \n 6. Carregue a canetinha, pressione e solte para lançar teias! </string>
      <string name="brinquedo2" translatable="false">TODO</string>
+
+    <!-- strings para mudança de if e else no arquivo java daa tela brinquedo3-->
+    <string name="ex">Corte a canetinha velha em dois pedaços pequenos (do mesmo tamanho).</string>
+    <string name="ex2">a molinha e cole em cima do pedacinho de papelão, logo depois cole em cima um dos pedaços da canetinha, de maneira que a molinha fique dentro.</string>
+    <string name="ex3">Repita este processo com o outro pedaço de canetinha</string>
+    <string name="ex4">Corte o papelão no tamanho do seu pulso, como uma pulseira.</string>
+    <string name="ex5">Cole os dois pedaços da canetinha nessa pulseira.</string>
+    <string name="ex6">Pegue a tampinha e corte para colar em cima da pulseira, de maneira que cubra os dois pedaços da canetinha.</string>
+    <string name="ex7">Para fazer o que será lançado, pegue dois palitos de churrasco cortados e cole em cima do pedacinho de palito de sorvete. Logo depois cole dois barbantes</string>
+    <string name="ex8">Com as duas pontas soltas dos barbantes, cole-as na pulseira, em baixo dos pedaços da canetinha.</string>
+    <string name="ex9">Coloque o que será lançado nos pedaços da canetinha, pressione e solte suas teias!</string>
+
+    <!-- strings para estrutura if da tela brinquedo 1 java -->
+    <string name="ex10">Cole 2 palitos de sorvete na ponta em que se abre o prendedor, para simular as asas. </string>
+    <string name="ex11">Cole o último palito na outra ponta.</string>
+    <string name="ex12">Solte a criatividade e decore seu avião!</string>
+
+    <!-- string da tela brinquedo 2 para estrutura if da tela java-->
+    <string name="ex13">Pique o papel em pedaços pequenos e coloque em um recipiente.</string>
+    <string name="ex14">Despeje água morna sobre o papel e deixe amolecer (pelo menos de 10 a 12 horas). Se desejar acelerar o processo, você pode usar um mixer, para misturar.</string>
+    <string name="ex15">Após o tempo, pegue a massa e enrole num tecido, para tirar o excesso da água.</string>
+    <string name="ex16">Acrescente a cola aos poucos.</string>
+    <string name="ex17">Quando a massa ganhar forma, está tudo pronto para a modelagem. Seja criativo amigão!</string>
+    <string name="app_name" />
+
 </resources>

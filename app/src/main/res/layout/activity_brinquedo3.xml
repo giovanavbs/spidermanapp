@@ -121,7 +121,7 @@
         app:layout_constraintVertical_bias="0.519" />
 
     <TextView
-        android:id="@+id/textView9"
+        android:id="@+id/txttuto6"
         android:layout_width="311dp"
         android:layout_height="244dp"
         android:fontFamily="@font/eczar"
