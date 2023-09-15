@@ -5,10 +5,11 @@
     <string name="btnfim" translatable="false">FIM</string>
     <string name= "btntuto">Tutoriais</string> <!-- botão para a tela de tutoriais dos brinquedos -->
     <string name="btnlogin">Login</string> <!-- botão para a tela de login -->
-    <string name="btnvoltamenu" translatable="false">MENU</string> <!-- string nome de botão de retorno -->
+    <string name="btnvoltamenu" translatable="false">Menu</string> <!-- string nome de botão de retorno -->
     <string name="txtvb1" translatable="false">MATERIAIS</string>
     <string name="txtemenu" translatable="false">MENU</string><!-- String nome da textview -->
     <string name ="btnvd">Vídeos</string> <!-- string do botão de vídeos da tela de menu-->
+    <string name ="btnsite">Site</string>
     <string name ="btnplaylist">Playlist</string> <!-- string do botão que envia para o Youtube -->
 
     <!-- strings da tela de login-->
@@ -99,5 +100,6 @@
     <string name="ex16">Acrescente a cola aos poucos.</string>
     <string name="ex17">Quando a massa ganhar forma, está tudo pronto para a modelagem. Seja criativo amigão!</string>
     <string name="app_name" />
+    <string name="btncompartilhe">Compartilhar</string>
 
 </resources>

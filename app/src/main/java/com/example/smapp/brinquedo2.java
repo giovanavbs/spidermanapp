@@ -18,7 +18,7 @@ public class brinquedo2 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_brinquedo2);
 
-        txt = findViewById(R.id.txtex);
+        txt = findViewById(R.id.txttuto4);
         btn = findViewById(R.id.btnnext);
         i=0;
 
@@ -44,7 +44,7 @@ public class brinquedo2 extends AppCompatActivity {
                 }
                 else {
 
-                    Intent intent = new Intent(brinquedo2.this, fim.class);
+                    Intent intent = new Intent(brinquedo2.this, brinquedo3.class);
                     startActivity(intent);
                 }
 
