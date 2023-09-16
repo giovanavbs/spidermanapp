@@ -72,19 +72,21 @@
         app:layout_constraintVertical_bias="0.298"
         tools:ignore="TextContrastCheck" />
 
-    <ImageButton
+    <Button
         android:id="@+id/btncompartilhe"
-        android:layout_width="67dp"
-        android:layout_height="60dp"
-        android:background="#9FFF0D0D"
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="304dp"
+        android:layout_marginTop="101dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="582dp"
+        android:background="@drawable/compartilhamento_removebg_preview"
+        android:backgroundTint="@color/design_default_color_error"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.953"
+        app:layout_constraintHorizontal_bias="0.686"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.131"
-        app:srcCompat="@drawable/compartilhamento_removebg_preview"
-        tools:ignore="SpeakableTextPresentCheck"
-        android:contentDescription="@string/btncompartilhe" />
+        app:layout_constraintVertical_bias="1.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

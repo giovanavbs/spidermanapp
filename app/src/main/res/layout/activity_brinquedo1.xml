@@ -8,135 +8,16 @@
     android:background="@drawable/miranhafundo2"
     tools:context=".brinquedo1">
 
-    <TextView
-        android:id="@+id/txttuto1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/eczar_medium"
-        android:text="@string/txttuto1"
-        android:textColor="#000000"
-        android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.778"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.477" />
-
-    <TextView
-        android:id="@+id/txtttuto2"
-        android:layout_width="224dp"
-        android:layout_height="204dp"
-        android:fontFamily="@font/eczar"
-        android:gravity="right"
-        android:text="@string/txttuto2"
-        android:textColor="#000000"
-        android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.914"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.69"
-        tools:ignore="RtlHardcoded,TextSizeCheck" />
-
     <Button
-        android:id="@+id/btnnext"
+        android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:width="125dp"
-        android:backgroundTint="@color/black"
-        android:fontFamily="@font/eczar_extrabold"
-        android:text="@string/btnnext"
-        android:textColor="@color/white"
-        app:cornerRadius="@dimen/material_emphasis_medium"
+        android:text="Button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.944"
+        app:layout_constraintHorizontal_bias="0.459"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.994" />
-
-    <TextView
-        android:id="@+id/txtvb"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:width="200dp"
-        android:height="60dp"
-        android:fontFamily="@font/eczar_medium"
-        android:gravity="center"
-        android:text="@string/txtvb1"
-        android:textColor="#B71C1C"
-        android:textSize="28sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
-
-    <TextView
-        android:id="@+id/txtve"
-        android:layout_width="192dp"
-        android:layout_height="57dp"
-        android:background="#D86565"
-        android:fontFamily="@font/eczar_medium"
-        android:gravity="center"
-        android:text="@string/txtve"
-        android:textColor="#000000"
-        android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.101"
-        tools:ignore="TextSizeCheck" />
-
-    <ImageView
-        android:id="@+id/brinquedo1"
-        android:layout_width="156dp"
-        android:layout_height="151dp"
-        android:background="#830000"
-        android:importantForAccessibility="no"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.937"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.291"
-        app:srcCompat="@drawable/brinquedo1img" />
-
-    <TextView
-        android:id="@+id/txtmat"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/eczar_medium"
-        android:text="@string/txtmat"
-        android:textColor="#000000"
-        android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.233"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.199" />
-
-    <TextView
-        android:id="@+id/txtmat1"
-        android:layout_width="205dp"
-        android:layout_height="172dp"
-        android:fontFamily="@font/eczar"
-        android:gravity="clip_horizontal|clip_vertical|left"
-        android:text="@string/txtmat1"
-        android:textColor="#000000"
-        android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.077"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.302"
-        tools:ignore="RtlHardcoded,TextSizeCheck" />
+        app:layout_constraintVertical_bias="0.888" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

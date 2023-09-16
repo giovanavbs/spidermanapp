@@ -21,7 +21,7 @@ public class brinquedo3 extends AppCompatActivity {
         setContentView(R.layout.activity_brinquedo3);
 
         txt = findViewById(R.id.txttuto6);
-        btn = findViewById(R.id.btnnext);
+        btn = findViewById(R.id.btnnext3);
         i=0;
         btn.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -3,14 +3,14 @@
     <string name="txtslogan" translatable="false">Ajude o Spider-Man a salvar o Meio-Ambiente!</string>   <!-- string da tela activity main -->
     <string name="btnnext" translatable="false">PROXIMO</string>
     <string name="btnfim" translatable="false">FIM</string>
-    <string name= "btntuto">Tutoriais</string> <!-- botão para a tela de tutoriais dos brinquedos -->
+    <string name="btntuto">Tutoriais</string> <!-- botão para a tela de tutoriais dos brinquedos -->
     <string name="btnlogin">Login</string> <!-- botão para a tela de login -->
     <string name="btnvoltamenu" translatable="false">Menu</string> <!-- string nome de botão de retorno -->
     <string name="txtvb1" translatable="false">MATERIAIS</string>
     <string name="txtemenu" translatable="false">MENU</string><!-- String nome da textview -->
-    <string name ="btnvd">Vídeos</string> <!-- string do botão de vídeos da tela de menu-->
-    <string name ="btnsite">Site</string>
-    <string name ="btnplaylist">Playlist</string> <!-- string do botão que envia para o Youtube -->
+    <string name="btnvd">Vídeos</string> <!-- string do botão de vídeos da tela de menu-->
+    <string name="btnsite">Site</string>
+    <string name="btnplaylist">Playlist</string> <!-- string do botão que envia para o Youtube -->
 
     <!-- strings da tela de login-->
     <string name="nomelog">Digite seu nome</string>
@@ -21,14 +21,14 @@
     <!-- Strings da tela do brinquedo número 1 -->
     <string name="txtve" translatable="false">AVIÃO DE PRENDEDOR</string>
     <string name="txtmat" translatable="false">Materiais</string>
-    <string name= "txtmat1" translatable="false">
+    <string name="txtmat1" translatable="false">
             Prendedor de roupa;
         \nTrês palitos de sorvete;
         \nCola (bastão ou líquida);
     \nTintas para a decoração (a decidir);
     </string>
     <string name="txttuto1" translatable="false">Tutorial:</string>
-    <string name = "txttuto2" translatable="false">
+    <string name="txttuto2" translatable="false">
         1. Cole 2 palitos de sorvete na ponta em que se abre o prendedor, para simular
         as asas.
         \n2. Cole o último palito na outra ponta.
@@ -39,7 +39,7 @@
     <string name="btnt" translatable="false">tutorial</string>
 
     <!-- Strings da tela do brinquedo número 2 -->
-    <string name ="txtve1" translatable="false">PAPEL MACHÊ</string>
+    <string name="txtve1" translatable="false">PAPEL MACHÊ</string>
     <string name="txtmat2" translatable="false">Materiais</string>
     <string name="txtmat3" translatable="false">
         Papel (folhas de jornal, papel de caderno, papel higiênico limpo e entre outros);
@@ -48,7 +48,7 @@
         \nRecipiente para misturar a massa;
     </string>
     <string name="txttuto3" translatable="false">Tutorial:</string>
-    <string name = "txttuto4" translatable="false">
+    <string name="txttuto4" translatable="false">
         1. Pique o papel em pequenos pedaços. \n
         2. Adicione água ao papel e deixe amolecer. \n
         3. Após o tempo, pegue a massa, enrole num tecido e aperte, para tirar o excesso de água. \n
@@ -75,7 +75,7 @@
      \n 4. Adicione uma mola entre o papelão e a canetinha.
     \n 5. Cole uma tampinha sobre a canetinha.
         \n 6. Carregue a canetinha, pressione e solte para lançar teias! </string>
-     <string name="brinquedo2" translatable="false">TODO</string>
+    <string name="brinquedo2" translatable="false">TODO</string>
 
     <!-- strings para mudança de if e else no arquivo java daa tela brinquedo3-->
     <string name="ex">Corte a canetinha velha em dois pedaços pequenos (do mesmo tamanho).</string>
