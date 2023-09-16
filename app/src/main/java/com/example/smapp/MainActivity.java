@@ -1,11 +1,9 @@
 package com.example.smapp;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.Button;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -13,19 +11,17 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Thread timer = new Thread() {
-            public void run() {
-                try {
-                    sleep(1500);
-                    Intent intent = new Intent(getBaseContext(), tutorial.class);
-                    startActivity(intent);
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                }
 
+        Thread timer = new Thread(() -> {
+            try {
+                Thread.sleep(1500);
+                Intent intent = new Intent(getBaseContext(), tutorial.class);
+                startActivity(intent);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
             }
 
-        };
+        });
         timer.start();
 
     }

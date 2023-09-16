@@ -30,22 +30,28 @@ public class tutorial extends AppCompatActivity {
 
     btn4 = findViewById(R.id.btncompartilhe);
 
-        btn1.setOnClickListener(v -> {
+        btn1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
             Intent intent = new Intent(getBaseContext(), brinquedo11.class);
             startActivity(intent);
-        });
+        }});
 
-        btn2.setOnClickListener(v -> {
+        btn2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
             Intent intent = new Intent(getBaseContext(), login.class);
 
             //Intent intent = new Intent( this, login.class);
             startActivity(intent);
-        });
+        }});
 
-        btn3.setOnClickListener(v -> {
+        btn3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
             Intent intent = new Intent(getBaseContext(), videos.class);
             startActivity(intent);
-        });
+        }});
 
         btn4.setOnClickListener(new View.OnClickListener() {
             @Override
