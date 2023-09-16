@@ -3,6 +3,7 @@
     <string name="txtslogan" translatable="false">Ajude o Spider-Man a salvar o Meio-Ambiente!</string>   <!-- string da tela activity main -->
     <string name="btnnext" translatable="false">PROXIMO</string>
     <string name="btnfim" translatable="false">FIM</string>
+    <string name="btncompart">Compartilhe!</string>
     <string name="btntuto">Tutoriais</string> <!-- botão para a tela de tutoriais dos brinquedos -->
     <string name="btnlogin">Login</string> <!-- botão para a tela de login -->
     <string name="btnvoltamenu" translatable="false">Menu</string> <!-- string nome de botão de retorno -->
