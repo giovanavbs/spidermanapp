@@ -12,6 +12,8 @@
     <string name="btnvd">Vídeos</string> <!-- string do botão de vídeos da tela de menu-->
     <string name="btnsite">Site</string>
     <string name="btnplaylist">Playlist</string> <!-- string do botão que envia para o Youtube -->
+    <string name="btnloc">Localização</string>
+    <string name="btnfoto">Foto</string>
 
     <!-- strings da tela de login-->
     <string name="nomelog">Digite seu nome</string>
