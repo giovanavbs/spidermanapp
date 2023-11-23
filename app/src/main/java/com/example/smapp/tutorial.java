@@ -18,13 +18,14 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 
+
 public class tutorial extends AppCompatActivity {
 
     private static final int REQUEST_LOCATION_PERMISSION = 1;
 
     private LocationManager locationManager;
 
-    @SuppressLint("MissingInflatedId")
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -41,7 +42,6 @@ public class tutorial extends AppCompatActivity {
 
     Button btn5 = findViewById(R.id.btnloc);
 
-    locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
 
         btn1.setOnClickListener(v -> {
             Intent intent = new Intent(getBaseContext(), brinquedo11.class);
@@ -70,10 +70,10 @@ public class tutorial extends AppCompatActivity {
                 startActivity(intentcomp);
 
             });
+        locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
 
         btn5.setOnClickListener(v -> checarpermissao());
     }
-
                 @Override
                 protected void onStart() {
                     super.onStart();
@@ -135,7 +135,7 @@ public class tutorial extends AppCompatActivity {
 
                 @Override
                 public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
-                    super.onRequestPermissionsResult(requestCode, permissions, grantResults); // nao é redundante?
+                    super.onRequestPermissionsResult(requestCode, permissions, grantResults);
                     if (requestCode == REQUEST_LOCATION_PERMISSION) {
                         if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
                             pegarloc();

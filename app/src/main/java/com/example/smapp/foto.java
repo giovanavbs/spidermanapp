@@ -22,7 +22,7 @@ public class foto extends AppCompatActivity implements SensorEventListener {
     private SensorManager sensorManager;
     private Sensor acelerometro;
     private long att;
-    private static final int movimento = 100;
+    private static final int movimento = 10;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -62,17 +62,18 @@ public class foto extends AppCompatActivity implements SensorEventListener {
             if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
                 abrirCam();
             } else {
-                Toast.makeText(this, "Permissão da câmera não concedida", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "permissão negada", Toast.LENGTH_SHORT).show();
             }
         }
     }
 
             @Override
-            public void onSensorChanged(SensorEvent event) { // a cada vez que o sensor mudar, o tempo atual é registrado(currenttimemillis) e é feito a comparação com o att(tempo da atualização anterior)
+            public void onSensorChanged(SensorEvent event) {
+        // a cada vez que o sensor mudar, o tempo atual é registrado(currenttimemillis) e é feito a comparação com o att(tempo da atualização anterior)
                 if (event.sensor.getType() == Sensor.TYPE_ACCELEROMETER) {
                     long atualtemp = System.currentTimeMillis();
                     if ((atualtemp - att) > 100) { // verifica se o acelerometro foi ativado em menos de 100 milisegundos pra nao abrir a camera varias vezes
-                        long diffTime = (atualtemp - att);
+                        long intervalo = (atualtemp - att);
                         att = atualtemp;
                         // pegando os valores do acelerometro
 
@@ -81,11 +82,12 @@ public class foto extends AppCompatActivity implements SensorEventListener {
                         float z = event.values[2];
 
                         double aceleracao = Math.sqrt(x * x + y * y + z * z) - SensorManager.GRAVITY_EARTH; // calculo da aceleração sem a gravidade
-                        if (aceleracao > movimento) {  // se o calculo da aceleração do celular for maior que 800(movimento) vai abrir a camera
+                        if (aceleracao > movimento) { // se o calculo da aceleração for maior que o movimento a camera sera aberta
+
                             abrirCam();
                         } else {
-                            // Adicionando um Toast para mostrar mudanças detectadas no sensor
-                            Toast.makeText(this, "Mudança detectada no acelerômetro", Toast.LENGTH_SHORT).show();
+                            // toast teste para ver se o acelerometro detecta
+                            Toast.makeText(this, "mudança detectada no acelerômetro", Toast.LENGTH_SHORT).show();
                         }
                     }
                 }
@@ -102,6 +104,8 @@ public class foto extends AppCompatActivity implements SensorEventListener {
                 } else {
                     Toast.makeText(this, "nao foi possivel abrir a camera", Toast.LENGTH_SHORT).show();
                 }
+
+
             }
         }
 
