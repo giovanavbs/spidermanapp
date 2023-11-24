@@ -7,4 +7,16 @@
     android:background="@drawable/fundoinicio"
     tools:context=".foto">
 
+    <TextView
+        android:id="@+id/txtfoto"
+        android:layout_width="307dp"
+        android:layout_height="154dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/txtfoto"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.343" />
 </androidx.constraintlayout.widget.ConstraintLayout>

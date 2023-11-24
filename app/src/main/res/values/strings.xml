@@ -14,6 +14,8 @@
     <string name="btnplaylist">Playlist</string> <!-- string do botão que envia para o Youtube -->
     <string name="btnloc">Localização</string>
     <string name="btnfoto">Foto</string>
+    <string name="txtfoto">Movimente o dispositivo para abrir a camera e compartilhar seu brinquedo com os amigos!</string>
+    <string name="txtloc">Aperte o botão para abrir o Maps com sua localização e procurar por ONGs proximas para doar seu brinquedo:</string>
 
     <!-- strings da tela de login-->
     <string name="nomelog">Digite seu nome</string>
