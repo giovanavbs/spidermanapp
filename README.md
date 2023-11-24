@@ -44,8 +44,7 @@ maioria das casas.
 
 ![onPause](https://github.com/anabtzz/TESTE/assets/128055760/91bc6dce-aaf1-409a-b070-cd76b0364b05)
 
-<h3>• O calculo da aceleração + calculo do intervalo entre a ultima movimentação e a atul para não abrir a camera toda hora:
-COMENTADO </h3>
+<h3>• O calculo da aceleração + calculo do intervalo entre a ultima movimentação e a atul para não abrir a camera toda hora: </h3>
 
 ![calculo aceleração e intervalo](https://github.com/anabtzz/TESTE/assets/128055760/2bb47eff-f0a6-45d7-8ea9-efdadffcad31)
 
@@ -66,7 +65,7 @@ COMENTADO </h3>
 
 ![locationManeger](https://github.com/anabtzz/TESTE/assets/128055760/d027819f-7122-44b8-9c46-88341613f819)
 
-<h3>• LocationManager para acessar o serviço de localizaçã, onStart para quando a activity for colocada em primerio plano ativar o checargps que pede para ligar a localização:</h3> 
+<h3>• LocationManager para acessar o serviço de localização, onStart para quando a activity for colocada em primerio plano ativar o checargps que pede para ligar a localização:</h3> 
 
 ![onStart](https://github.com/anabtzz/TESTE/assets/128055760/cc5eeb9f-6883-4b83-b34b-e63c7adb7190)
 
