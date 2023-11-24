@@ -26,6 +26,12 @@ maioria das casas.
 
 • apos realizar o cadastro na tela inicial, uma notificação com a mensagem "gostaria de receber atualizações de novos tutorias por email?" aparecerá na tela
 
+<h2><center>ATUALIZAÇÃO DO APLICATIVO COM PERMISSÕES</center></h2>
+
+<h3>• Manifesto com as permissões para acessar a localização e câmera(wake_lock e disable_keyguard eram apenas para testes): </h3>
+
+
+
 <h2><center>ATUALIZAÇÃO DO APLICATIVO COM SENSORES</center></h2>
 
 <h3>• Imports dos sensores: </h3>
