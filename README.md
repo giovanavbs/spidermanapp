@@ -30,7 +30,7 @@ maioria das casas.
 
 <h3>• Manifesto com as permissões para acessar a localização e câmera(wake_lock e disable_keyguard eram apenas para testes): </h3>
 
-
+![permissao](https://github.com/giovanavbs/spidermanapp/assets/128055760/e3b8e810-a463-4025-a48b-5d6c23e5aa9d)
 
 <h2><center>ATUALIZAÇÃO DO APLICATIVO COM SENSORES</center></h2>
 
